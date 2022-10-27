@@ -1,0 +1,26 @@
+<mat-toolbar class="nav-bar" color="primary">
+    <span class="Title">ABC Healthcare</span>
+    <div class="icon">
+        <a (click)="openDialog()" class="cart">
+            <mat-icon matBadge="15" matBadgeSize="small" matBadgeColor="accent" class="cart">shopping_basket</mat-icon>
+        </a>
+        <a class="user"> <span>Hello! Ruchika Dubey</span></a>
+        <a class="account" [matMenuTriggerFor]="menu">
+            <mat-icon style="transform: scale(1.5); ">account_circle</mat-icon>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item>
+                    <mat-icon>settings</mat-icon>
+                    <span>My Account</span>
+                </button>
+                <button mat-menu-item>
+                    <mat-icon>home</mat-icon>
+                    <span>Saved Addresses</span>
+                </button>
+                <button mat-menu-item>
+                    <mat-icon>shop_two</mat-icon>
+                    <span>My Orders</span>
+                </button>
+            </mat-menu>
+        </a>
+    </div>
+</mat-toolbar>

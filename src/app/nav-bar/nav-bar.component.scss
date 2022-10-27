@@ -1,0 +1,39 @@
+div.icon{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-content:center;   
+ }
+a.account{
+padding-left: 0%;
+padding-top: 2%;
+cursor: pointer;
+}
+a.cart{
+padding-right: 9%;
+padding-top: 3%;
+padding-left: 24%;
+cursor: pointer;
+}
+
+a.user{
+padding-right: 6%;
+font-size: 13px;
+padding-top: 1%;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+mat-toolbar.nav-bar{
+    width: 100%;
+    padding-right: 0px;
+    height: 35px;
+}
+button.account-menu{
+    height: 28px;
+    width: 28px;
+    padding-left: 0px;
+}
+
+span.Title{
+    width: 75%;
+    height: 100%;
+}
